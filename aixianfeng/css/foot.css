@@ -1,0 +1,47 @@
+.footer{
+	width: 100%;
+	height: .65rem;
+	background: rgba(246,246,246,0.95);
+	position: fixed;
+	bottom: 0;
+	z-index: 110;
+}
+.footer dl{
+	float: left;
+	width: 25%;
+	text-align: center;
+	margin-top: .07rem;
+}
+.footer .dt1{
+	height: .3rem;
+	background: url(../imgs/foot1.png) no-repeat 0.38rem center;
+	background-size: .27rem .27rem;
+}
+.footer .dt2{
+	height: .3rem;
+	background: url(../imgs/foot2.png) no-repeat 0.38rem center;
+	background-size: .27rem .27rem;
+}
+.footer .dt3{
+	height: .3rem;
+	background: url(../imgs/foot3.png) no-repeat 0.38rem center;
+	background-size: .27rem .27rem;
+}
+.footer .dt3 .dogdiv{
+	width: 0.24rem;
+	height: 0.24rem;
+	text-align: center;
+	line-height: 0.24rem;
+	border-radius: 50%;
+	color: white;
+	background: red;
+	margin-left: 0.7rem;
+}
+.footer .dt4{
+	height: .3rem;
+	background: url(../imgs/foot4.png) no-repeat 0.38rem center;
+	background-size: .27rem .27rem;
+}
+.footer dd {
+	font-size: .16rem;
+}

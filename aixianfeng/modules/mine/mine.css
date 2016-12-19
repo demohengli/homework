@@ -1,0 +1,127 @@
+.mine-header{
+	width: 100%;
+	height: 1.7508rem;
+	background: #ffd600;
+	position: fixed;
+	z-index: 100;
+}
+.mine-header .mine-h1{
+	width: 100%;
+	height: 1.2969rem;
+}
+.mine-h1 .mine-img1{
+	width: .77rem;
+	float: left;
+	margin: .3rem 0 0 .2rem;
+}
+.mine-h1 dl{
+	width: 2.5rem;
+	float: left;
+	margin: .3rem 0 0 .2rem;
+}
+.mine-h1 dl dt a{
+	font-size: .19rem;
+	color: white;
+}
+.mine-h1 dl dd img{
+	width: 1.1rem;
+	height: .37rem;
+}
+.mine-h1 .mine-img2{
+	width: .13rem;
+	float: left;
+	margin-top: .5rem;
+}
+
+.mine-header .mine-h2{
+	width: 100%;
+	height: .4539rem;
+	background: rgba(0,0,0,0.05);
+}
+.mine-h2 li{
+	float: left;
+	width: 50%;
+	margin-top: .1rem;
+}
+.mine-h2 li:first-child{
+	background: url(../../imgs/h2_1.png) no-repeat .6rem center;
+	background-size: .25rem .25rem;
+	border-right: .01rem solid white;
+}
+.mine-h2 li:last-child{
+	background: url(../../imgs/h2_2.png) no-repeat .6rem center;
+	background-size: .25rem .25rem;
+}
+.mine-h2 li a{
+	margin-left: 1rem;
+	color: white;
+}
+
+.mine-space-line{
+	width: 100%;
+	height: .13rem;
+	background: #efefef;
+}
+.mine-space{
+	padding-top: 1.8808rem;
+}
+.mine-main1{
+	padding-top: 1.7508rem;
+}
+.mine-main1 .mine-main1_1{
+	width: 100%;
+	height: .6431rem;
+	border-bottom: 0.01rem solid #efefef;
+	background: url(../../imgs/you.png) no-repeat 3.9rem center;
+	background-size: .19rem .15rem;
+}
+.mine-main1 .mine-main1_1  .mine-main1_1a{
+	float: left;
+	margin: .17rem 0 0 .2rem;
+	font-size: .2rem;
+}
+.mine-main1 .mine-main1_1  .mine-main1_2a{
+	float: left;
+	margin: .17rem 0 0 1.6rem;
+	color: #999;
+	font-size: .2rem;
+}
+.mine-main1 .mine-main1_2{
+	width: 100%;
+	height: .9194rem;
+}
+.mine-main1 .mine-main1_2 dl{
+	float: left;
+	width: 25%;
+	text-align: center;
+	margin-top: .3rem;
+}
+.mine-main1_2 dl dt img{
+	width: .24rem;
+}
+#main2 img{
+	width: .4rem;
+}
+#main2 dl{
+	height: .9rem;
+	margin-top: .4rem;
+	border-bottom: 0.01rem solid #efefef;
+}
+#main2 dl:last-child{
+	border-bottom: none;
+}
+.mine-spaceBig{
+	width: 100%;
+	height: .4rem;
+	background: #efefef;
+}
+.mine-main3{
+	width: 100%;
+	height: .5836rem;
+	text-align: center;
+	line-height: .5836rem;
+	font-size: .19rem;
+}
+#space2{
+	margin-bottom: .65rem;
+}

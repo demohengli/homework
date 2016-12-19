@@ -1,0 +1,35 @@
+/*------------------全局样式----------------*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box;
+}
+html{
+	font-size: 100px;
+}
+body{
+	font: .16rem/1.5 "Myriad Set Pro","Lucida Grande","Helvetica Neue",Helvetica,Arial,Verdana,sans-serif,'Microsoft Yahei';
+	width: 100%;
+	margin: 0 auto;
+}
+img{
+	border: none;
+}
+a{
+	text-decoration: none;
+	color:black;
+}
+ul,ol,dl{
+	list-style: none;
+}
+input{
+	font-size: 12px;
+	outline:none;
+}
+.clearfixed:after{
+	content: ".";
+	clear: both;
+	display: block;
+	height: 0;
+	visibility: hidden;
+}

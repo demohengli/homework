@@ -1,0 +1,207 @@
+.market-header{
+	width: 100%;
+	background: #ffd82b;
+	height: .5936rem;
+	position: fixed;
+	z-index: 100;
+}
+.market-header h4{
+	float: left;
+	width: 90%;
+	text-align: center;
+	font-size: .18rem;
+	margin: .2rem 0 0 0rem;
+}
+.market-header h4 img{
+	width: 0.11rem;
+	height: 0.11rem;
+}
+.market-header .market-hr{
+	float: right;
+	width: 0.33rem;
+	margin-top: 0.08rem;
+	padding-top: 0.3rem;
+	font-size: .12rem;
+	background: url(../../imgs/suo.png) no-repeat;
+	background-size: 0.25rem 0.25rem;
+}
+
+.market-mainX{
+	padding-top: .5936rem;
+}
+.market-mainX .market-left{
+	overflow-y: auto;
+    overflow-x: hidden;
+    display: block;
+    width: 23.75%;
+    font-size: 0.16rem;
+    background-color: #f8f8f8;
+	position: absolute;
+	top:0.58rem;
+	left:0;
+	bottom:0.7rem;
+}
+.market-left li{
+	height: 0.5rem;
+	width: 100%;
+	line-height: 0.5rem;
+    color: #6d6d6d;
+    border-bottom: 1px solid #e0e0e0;
+    text-align: center;
+    background: right top no-repeat;
+    background-color: #f8f8f8;
+    background-size: auto 70%;
+}
+.market-res{
+	border-left: .06rem solid #ffd600;
+}
+
+
+.market-right{
+	float:right;
+	width: 75%;
+	overflow-y: auto;
+    overflow-x: hidden;
+    display: block;
+	position: absolute;
+	right:0;
+	top:0.6rem;
+	bottom:0.7rem;
+}
+.market-xin{
+	display: none;
+}
+.market-right .market-r1{
+	position: fixed;
+	z-index: 3;
+    top: 0.58rem;
+    left: 25%;
+    right: 0;
+    height: 0.52rem;
+    font-size:0.16rem;
+    color: #777;
+    background-color: rgba(255,255,255,.95);
+    line-height: 0.52rem;
+    border-bottom:1px solid #e0e0e0;
+}
+.market-right .market-r1 li{
+	float: left;
+    width: 50%;
+    text-align: center;
+    position: relative;
+}
+.market-r1 li:last-of-type span:first-of-type{
+	display: block;
+    content: '';
+    width: 1px;
+    height: 46%;
+    position: absolute;
+    background-color: #ddd;
+    top: 27%;
+}
+.page-jt1{
+	display: inline-block;
+    vertical-align: top;
+    width: 0.16rem;
+    height: 0.52rem;
+    content: '';
+    background: center center no-repeat;
+    background-size: 0.13rem;
+    -webkit-transition: -webkit-transform .3s;
+}
+.market-xin{
+	display: none;
+	position: absolute;
+	width: 100%;
+    background-color: rgba(0,0,0,.18);	
+	left:0;
+	bottom: -5.5rem;
+	z-index:2;
+	padding-bottom: 5.4rem;
+}
+.market-xin div{
+	position: absolute;
+	left:0;
+	top:0;
+	width: 100%;
+	background-color: #fff;
+	overflow: hidden;
+	padding-bottom: 0.1rem;
+}
+.market-xin li{
+	content: '';
+	width: 21%;	 
+    float: left;
+    border: solid 1px #e0e0e0;
+    padding: .06rem .1rem;
+    margin-left: .1rem;
+    margin-top: .1rem;
+    border-radius: .06rem;   
+    line-height: 0.23rem;  
+    color: #777;
+    overflow: hidden;
+}
+.market-xin1{
+	border-color: #ffd600 !important;
+	background-color: #fff9d9;
+}
+
+
+.market-right .market-r2{
+	padding-top: .5rem;
+}
+.market-right .market-r2 li{
+	width: 3.0125rem;
+	height: 1.1772rem;
+	background: url(../../imgs/nai1.jpg) no-repeat left center;
+	background-size: 1.0375rem 1.0375rem;
+	margin: 0.1rem .1rem;	
+	border-bottom: 0.01rem solid #efefef;
+}
+.ellipsis{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.market-right1{
+	margin: 0 0 0 1.3rem;
+}
+.market-right1 dt{
+	font-size: .17rem;
+}
+.market-right1 .market-jinxuan a{
+	display: inline-block;
+	width: .35rem;
+	height: .2rem;
+	text-align: center;
+	color: red;
+    font-size: .14rem;
+    border: 0.01rem solid red;
+    border-radius: 20%;
+}
+.market-right1 .market-zhong a{
+	color: #999;
+}
+.market-right1 .market-jiage .market-ja1{
+	font-size: .17rem;
+	color: red;
+}
+.market-right1 .market-jiage .market-ja2{
+	font-size: .17rem;
+	color: #999;
+}
+.market-right1 .market-jiage .market-jdiv,.market-jiandiv{
+	display: inline-block;
+	width: 0.35rem;
+	height: 0.35rem;
+	text-align: center;
+	line-height: 0.35rem;
+	border: 0.01rem solid red;
+	border-radius: 50%;
+	font-size: 0.3rem;
+	color: red;
+}
+.market-right1 .market-jiage .market-jiagespan{
+	margin: 0 0.05rem;
+	font-size: 0.2rem;
+}

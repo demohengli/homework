@@ -1,0 +1,93 @@
+.header{
+	width: 100%;
+	height: .5922rem;
+	background: #f9fafd url(../imgs/sou1.png) no-repeat 0.1rem center;
+	background-size: 0.3rem 0.3rem;
+	border-bottom: 0.01rem solid #efefef;
+	position: fixed;
+	z-index: 100;
+}
+.header h3{
+	width: 100%;
+	text-align: center;
+	line-height: .5922rem;	
+}
+.nav{
+	width: 100%;
+	height: 1.8134rem;
+	padding-top: .5922rem;
+	margin-bottom: .5922rem;
+}
+.nav img{
+	width: 100%;
+	height: 1.8134rem;
+}
+.banner{
+	width: 100%;
+	height: .9078rem;
+	
+}
+.banner li{
+	float: left;
+	width: 25%;
+	background: rgba(0,0,0,0.8);
+	border-left: 0.01rem solid white;
+}
+.banner li:first-child{
+	border-left: none;
+}
+.banner li .b1{
+	width: 100%;
+	height: .8078rem;
+	margin: 0.0539rem 0;
+	color: white;
+	text-align: center;
+}
+.b1 .banner_time{
+	font-size: 0.2rem;
+}
+#banner_dao{
+	background: #fdd000;
+}
+
+
+
+.time{
+	width: 100%;
+    height: .4rem;
+    background-color: #f2f2f2;
+    border-top: 1px solid #fff;
+}
+.time-left{
+    background-color: #fdd000;
+    width: 1.28rem;
+    height: .4rem;
+    line-height: .4rem;
+    float: left;
+}
+.wenzi,.jishi{
+    text-indent: .2rem;
+    height: .18rem;
+    line-height: .18rem;
+    font-size: .13rem;
+}
+.jishi{
+	font-size: .16rem;
+}
+.time-right{
+	float: right;
+	margin: 0.04rem 0.1rem 0 0;
+    padding: 0.04rem .15rem;
+    font-size: .14rem;
+    background-color: #272c2a;
+    color: #fff;
+    border-radius: 20px;
+}
+.jiao{
+	width: .06rem;
+	height: .4rem;
+	display: inline-block;
+    border-top: .2rem solid transparent;
+    border-left: .1rem solid #fdd000;
+    border-bottom: .2rem solid transparent;
+}

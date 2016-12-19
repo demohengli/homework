@@ -1,0 +1,80 @@
+<script type="text/html" id="homeTmp">
+	<div class="clearfixed"></div>
+	<div class="slider">
+	  <div class="swiper-container">
+	    <div class="swiper-wrapper">
+	    	<%for(var i in data.act_info[0].act_rows){%>
+	    		<div class="swiper-slide" id="swiper-slide1"><img class="lazy" data-original="<%=data.act_info[0].act_rows[i].activity.img%>"></div>
+	    	<%}%>		    
+	    </div>
+	    <div class="swiper-pagination"></div>
+	  </div>
+	</div>
+	<div class="clearfixed"></div>
+	<div class="home-space-line"></div>
+	<div class="home-main1">
+		<%for(var j in data.act_info[1].act_rows){%>
+			<dl>
+				<dt class="home-main1_d1" style="background-image:url(<%=data.act_info[1].act_rows[j].activity.img%>")></dt>
+				<dd><a href="miaosha.html"><%=data.act_info[1].act_rows[j].activity.name%></a></dd>
+			</dl>
+		<%}%>	
+	</div>
+	<div class="home-space-line"></div>
+	<div class="home-main2">
+		<ul>
+			<%for(var m=0; m<3;m++){%>
+				<li><a href="#" class="home-main2_a1" style="background-image:url(<%=data.act_info[3].act_rows[m].activity.img%>)"></a></li>
+			<%}%>
+		</ul>
+	</div>
+	<div class="home-space-line"></div>
+	<div class="home-main3">
+		<a href="#" class="home-main3_1" style="background-image:url(<%=data.act_info[4].act_rows[0].act_rows[0].chead_detail.img%>)"></a>
+		<ul class="home-ul1">
+			<%for(var n in data.act_info[4].act_rows[1].act_rows){%>
+				<li><a href="#" class="home-ul1_a1" style="background-image:url(<%=data.act_info[4].act_rows[1].act_rows[n].cactivity_detail.img%>)"></a></li>
+			<%}%>
+		</ul>
+		<%for(var k in data.act_info[4].act_rows[2].act_rows){%>
+			<dl>
+				<dt><a href="#" class="home-dl_dt1" style="background-image:url(<%=data.act_info[4].act_rows[2].act_rows[k].cicons_detail.img%>)"></a></dt>
+				<dd><a href="#"><%=data.act_info[4].act_rows[2].act_rows[k].cicons_detail.name%></a></dd>
+			</dl>
+		<%}%>
+		<ul class="home-ul2">
+			<%for(var g in data.act_info[4].act_rows[3].act_rows){%>
+				<li><a href="#"><img class="lazy" data-original="<%=data.act_info[4].act_rows[3].act_rows[g].cscene_detail.img%>"></a></li>
+			<%}%>
+		</ul>
+		<div class="clearfixed"></div>
+	</div>
+	<div class="home-space-line"></div>
+	<div class="home-main4">
+		<%for(var z in data.act_info[5].act_rows){%>
+			<div class="home-main4_1">
+				<div class="home-main4_div" style=background-color:#<%=data.act_info[5].act_rows[z].category_detail.category_color%>></div>
+				<h3 style=color:#<%=data.act_info[5].act_rows[z].category_detail.category_color%>><%=data.act_info[5].act_rows[z].category_detail.name%></h3>
+				<a href="#market"><span>更多</span><img class="lazy" data-original="imgs/you.png"></a>
+			</div>
+			<div class="clearfixed"></div>
+			<div class="home-main4_2">
+				<a href="#"><img class="lazy" data-original="<%=data.act_info[5].act_rows[z].activity.img%>"></a>
+			</div>
+			<div class="home-main4_3">
+				<%for(var h in data.act_info[5].act_rows[z].category_detail.goods){%>
+					<dl>
+						<dt><a href="#"><img class="lazy" data-original="<%=data.act_info[5].act_rows[z].category_detail.goods[h].img%>"></a></dt>
+						<dd><a href="#" class="home-main4_a1"><%=data.act_info[5].act_rows[z].category_detail.goods[h].keywords%></a></dd>
+						<dd><a href="#" class="home-main4_a2">精选</a></dd>
+						<dd><a href="#" class="home-main4_a3">750-1050g&nbsp;3粒</a></dd>
+						<dd><a href="#"><span class="home-span1">￥16.8</span><span class="home-span2"></span></a></dd>
+						<dd class="home-main4_dd">+</dd>
+					</dl>
+				<%}%>
+				<div class="clearfixed"></div>
+			</div>
+		<%}%>
+	</div>
+	<div class="home-space-line" id="space"></div>
+</script>

@@ -1,0 +1,61 @@
+.header{
+	width: 100%;
+	height: .5922rem;
+	background: #f9fafd url(../imgs/sou1.png) no-repeat 0.1rem center;
+	background-size: 0.3rem 0.3rem;
+	border-bottom: 0.01rem solid #efefef;
+}
+.header h3{
+	width: 100%;
+	text-align: center;
+	line-height: .5922rem;	
+}
+.mainJ{
+	width:100%;
+}
+.mainJ .mainJ1{
+	width: 100%;
+	height: 2rem;
+	background: red;
+}
+.mainJ .mainJ2{
+	width: 100%;
+}
+.mainJ2 li{
+	float: left;
+	width: 33.33%;
+	height: 0.85rem;
+	text-align: center;
+	border: 0.01rem solid #efefef;
+	color: #a9a9a9;
+}
+.mainJ2 li img{
+	display: block;
+	width: 0.3rem;
+	margin: 0.1rem 0 0.1rem 0.53rem;
+}
+.space_line{
+	width: 100%;
+	height: 0.13rem;
+	background: #efefef;
+}
+.mainJ3{
+	width: 100%;
+	height: 3.85rem;
+}
+.mainJ3 li{
+	float: left;
+	width: 50%;
+	height: 1.925rem;
+	border: 0.01rem solid #efefef;
+}
+.mainJ3 li img{
+	width: 2rem;
+}
+.mainJ3 li span{
+	display: block;
+	margin: 0.1rem 0 0.1rem 0.2rem;
+}
+.mainJ3 li .jfSpan{
+	color: red;
+}

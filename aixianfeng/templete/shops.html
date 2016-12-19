@@ -1,0 +1,43 @@
+<script type="text/html" id="shopTmp">
+	<div class="clearfixed"></div>
+	<div class="market-mainX">
+		<div class="market-left">
+			<ul>
+				<%for(var n in data.categories){%>
+				<li class="market-res" lid=<%=data.categories[n].id%>><%=data.categories[n].name%></li>
+				<%}%>
+			</ul>
+		</div>
+		<div class="market-right">
+			<ul class="market-r1">
+				<li class="market-act">全部分类&nbsp;<span class="page-jt1" style="background-image: url(imgs/xiabiao.png)"></span></li>
+				<li class="market-act"><span></span>综合排序&nbsp;<span class="page-jt1" style="background-image: url(imgs/xiabiao.png)"></span></li>
+				<ul class="market-xin">
+					<div>
+						<li class="market-xin1">全部分类</li>
+						<li class="market-xin2">综合排序</li>
+						<li>销量最高</li>
+						<li>价格最低</li>
+						<li>价格最高</li>
+					</div>
+				</ul>
+			</ul>
+			<div class="clearfixed"></div>
+			<div class="chaoji"></div>
+</script>
+<script type="text/html" id="shopTmps">		
+			<ul class="market-r2">
+				<%for(var m in shopdatas){%>
+					<li style="background-image:url(<%=shopdatas[m].img%>)">
+						<dl class="market-right1">
+							<dt class="ellipsis"><a href="#"><%=shopdatas[m].name%></a></dt>
+							<dd class="market-jinxuan ellipsis"><a href="#">精选</a></dd>
+							<dd class="market-zhong ellipsis"><a href="#"><%=shopdatas[m].specifics%></a></dd>
+							<dd class="market-jiage"><a href="#" class="market-ja1"><%=shopdatas[m].partner_price%></a>&nbsp;<a href="#" class="market-ja2"><%=shopdatas[m].market_price%></a><div class="market-jiandiv">-</div><span class="market-jiagespan">1</span><div class="market-jdiv">+</div></dd>
+						</dl>
+					</li>
+				<%}%>
+			</ul>
+		</div>
+	</div>
+</script>

@@ -1,0 +1,74 @@
+.header{
+	width: 100%;
+	height: .5936rem;
+	text-align: center;
+	line-height: .5936rem;
+	background: #f9fafd;
+}
+.header h4{
+	font-size: .2rem;
+}
+.main{
+	width: 100%;
+	height: 6.7764rem;
+	text-align: center;
+	background: #efefef;
+}
+.main dl{
+	padding-top: .75rem;
+	line-height: .4rem;
+}
+.main dl dt img{
+	width: 1rem;
+}
+.main dl dd span{
+	font-size: .18rem;
+	color: #a4a4a4;
+}
+.main dl dd a{
+	display: inline-block;
+	height: .3rem;
+	line-height: .3rem;
+	width: 1.3rem;
+	border: 0.01rem solid #e0e0e0;
+	border-radius: .03rem;
+	font-size: .18rem;
+	color: #a4a4a4;
+}
+.footer{
+	width: 100%;
+	height: .65rem;
+	background: rgba(246,246,246,0.95);
+	position: fixed;
+	bottom: 0;
+	z-index: 110;
+}
+.footer dl{
+	float: left;
+	width: 25%;
+	text-align: center;
+	margin-top: .07rem;
+}
+.footer .dt1{
+	height: .3rem;
+	background: url(../imgs/foot6.png) no-repeat 0.38rem center;
+	background-size: .27rem .27rem;
+}
+.footer .dt2{
+	height: .3rem;
+	background: url(../imgs/foot2.png) no-repeat 0.38rem center;
+	background-size: .27rem .27rem;
+}
+.footer .dt3{
+	height: .3rem;
+	background: url(../imgs/foot7.png) no-repeat 0.38rem center;
+	background-size: .27rem .27rem;
+}
+.footer .dt4{
+	height: .3rem;
+	background: url(../imgs/foot4.png) no-repeat 0.38rem center;
+	background-size: .27rem .27rem;
+}
+.footer dd {
+	font-size: .16rem;
+}

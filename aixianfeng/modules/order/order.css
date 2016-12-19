@@ -1,0 +1,234 @@
+/*body{
+	background: #efefef;
+}*/
+.order-header{
+	width: 100%;
+	height: .5922rem;
+	background: #f9fafd;
+	position: fixed;
+	z-index: 100;	
+}
+.order-header h3{
+	width: 100%;
+	text-align: center;
+	line-height: .5922rem;
+}
+.order-mainG{
+	width: 100%;
+	background: white;
+	padding-top: 0.5922rem;
+}
+.order-mainG .order-mainG1{
+	width: 100%;
+	font-size: 0.19rem;
+}
+.order-mainG1 p{
+	width: 100%;
+	height: 0.02rem;
+	background: url(../../imgs/bott.png);
+}
+.order-mainG1 th{
+	font-weight: normal;
+}
+.order-shouhuo .order-xiugai{
+	background: url(../../imgs/you.png) no-repeat right center;
+	background-size: 0.3rem 0.15rem;
+}
+.order-space_line{
+	width: 100%;
+	height: 0.13rem;
+	background: #efefef;
+}
+.order-mainG2{
+	width: 100%;
+	margin-bottom: 0.65rem;
+}
+.order-mainG2 .order-mainG2_shan{
+	width: 100%;
+	height: .65rem;
+	border-bottom: 0.02rem solid #efefef;
+}
+.order-mainG2_shan .order-shan1{
+	width: 100%;
+	height: .4rem;
+	margin-top: 0.1rem;
+}
+.order-shan1 .order-shan_shu{
+	width: 0.05rem;
+	height: 0.18rem;
+	border-radius: 5%;
+	background: #ffd600;
+	float: left;
+	margin: 0.02rem 0 0 0.07rem;
+}
+.order-shan1 .order-shan_name{
+	float: left;
+	margin-left: 0.07rem;
+	font-size: 0.16rem;
+	color: #9c9c9c;
+}
+.order-shan1 .order-shan_quan{
+	float: left;
+	font-size: 0.16rem;
+	color: red;
+	width: 0.9rem;
+	height: 0.34rem;
+	text-align: center;
+	line-height: 0.29rem;
+	border: 0.01rem solid red;
+	border-radius: 0.2rem;
+	margin-left: 2.3rem;
+}
+.order-shan2{
+	font-size: 0.14rem;
+	color: #9c9c9c;
+	margin-left: 0.14rem;
+}
+.order-mainG2_shou{
+	font-size: 0.2rem;
+	padding-top: 0.15rem;
+}
+.order-shou1{
+	float: left;
+	margin-left: 0.14rem;
+}
+.order-shou2{
+	float: left;
+	color: red;
+	margin-left: 0.14rem;
+}
+.order-shou3{
+	float: left;
+	width: 1rem;
+	margin-left: 1rem;
+	background: url(../../imgs/you.png) no-repeat right center;
+	background-size: 0.3rem 0.14rem;
+}
+.order-mainG2_bei{
+	width: 100%;
+	height: 0.66rem;
+	border-bottom: 0.02rem solid #efefef;
+	font-size: 0.19rem;
+	padding-top: 0.1rem;
+	padding-left: 0.14rem;
+}
+.order-mainG2_bei input[type=text]{
+	width: 2.85rem;
+	height: .435rem;
+	border: 0.02rem solid #efefef;
+	border-radius: 0.05rem;
+	padding-left: 0.08rem;
+	font-size: 0.19rem;
+	margin-left: 0.1rem;
+}
+
+.order-mainG2_shops{
+	width: 100%;
+	height: 1.02rem;
+	border-bottom: 0.02rem solid #efefef;
+}
+.order-shop1{
+	float: left;
+	width: 0.64rem;
+	text-align: center;
+	height: 1.02rem;
+	line-height: 1.02rem;
+}
+.order-shop1 img{
+	width: 0.26rem;
+}
+.order-shop2{
+	float: left;
+	width: 0.65rem;
+	text-align: center;
+	height: 1.02rem;
+}
+.order-shop2 img{
+	width: 0.65rem;
+	padding-top: 0.15rem;
+}
+.order-shop3{
+	float: left;
+	width: 2.8rem;
+	text-align: center;
+	height: 1.02rem;
+}
+.order-shop3 .order-shop3_span1,.order-shop4{
+	display: block;
+	width: 97.5%;
+	height: 0.5rem;
+	line-height: 0.5rem;
+	font-size: 0.2rem;
+	text-align: left;
+	margin-left: 0.1rem;
+}
+.order-shop4 .order-shop3_span2{
+	float: left;
+	font-size: 0.17rem;
+}
+.order-shop4 .order-shop4_1{
+	font-size: 0.35rem;
+	color: #ff4400;
+	float: left;
+	width: 0.35rem;
+	text-align: center;
+	height: 0.35rem;
+	line-height: 0.35rem;
+	border: 0.01rem solid #ff4400;
+	border-radius: 50%;
+	margin-left: 1rem;
+}
+.order-shop4 .order-shop4_span{
+	float: left;
+	width: 0.35rem;
+	text-align: center;
+	height: 0.35rem;
+	line-height: 0.35rem;
+}
+.order-shop4 .order-shop4_2{
+	font-size: 0.35rem;
+	color: #ff4400;
+	float: left;
+	width: 0.35rem;
+	text-align: center;
+	height: 0.35rem;
+	line-height: 0.35rem;
+	border: 0.01rem solid #ff4400;
+	border-radius: 50%;
+}
+.order-mainG2_all{
+	width: 100%;
+	height: 0.65rem;
+	line-height: 0.65rem;
+	font-size: 0.2rem;
+}
+.order-shop11{
+	float: left;
+	width: 0.64rem;
+	text-align: center;
+	height: 0.65rem;
+	line-height: 0.7rem; 
+}
+.order-shop11 img{
+	width: 0.26rem;
+}
+.order-all_1{
+	float: left;
+	margin-left: -0.1rem;
+}
+.order-all_2{
+	float: left;
+	margin-left: 0.3rem;
+}
+.order-all_2 span{
+	color: red;
+	font-size: 0.18rem;
+}
+.order-all_3{
+	float: left;
+	margin-left: 0.83rem;
+	width: 1.3rem;
+	text-align: center;
+	height: 0.65rem;
+	background: #ffd600;
+}
