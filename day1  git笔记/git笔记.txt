@@ -1,0 +1,31 @@
+git  项目的版本控制工具 1.1 1.2    2.0     1.0  1.1
+
+svn  集中式
+
+linux    git   分布式
+
+git
+
+ls  list
+
+1、配置user.name 和 user.email
+2、进入一个目录  cd 文件夹的名称/
+    退出一个目录  cd ..
+3、创建一个文件夹，进入
+4、在文件夹里执行 git init
+5、查看状态  git status
+6、提交到分支  git commit -m '这是我的git 第一次'
+7、插件提交的历史记录 git log
+    git log --pretty=oneline
+
+8、 git reset --hard HEAD^  回到上一个版本
+    git reset --hard HEAD~10 回到上10个版本
+    git reset --hard 版本号
+
+
+9、关联远程仓库  git remote add '远程仓库的地址'
+10、取消关联  git remote rm sae
+
+11、推送到远程仓库   git push sae master:1
+
+12  常见 错误：  Authentication  faild for     //用户名或密码错误
