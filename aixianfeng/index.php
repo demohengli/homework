@@ -32,12 +32,12 @@ $signPackage = $jssdk->GetSignPackage();
 	
 	<footer class="footer">
 		<dl>
-			<button onclick="getLocation">获取您的经纬度</button>
+			<button onclick="getLocation()">获取您的经纬度</button>
 			<dt class="dt1"><a href="#home"></a></dt>
 			<dd><a href="#home">首页</a></dd>
 		</dl>
 		<dl>
-			<button onclick="openLocation">地图接口</button>
+			<button onclick="openLocation()">地图接口</button>
 			<dt class="dt2"><a href="#market"></a></dt>
 			<dd><a href="#market">闪送超市</a></dd>
 		</dl>
@@ -107,8 +107,8 @@ $signPackage = $jssdk->GetSignPackage();
 		        	var accuracy = res.accuracy; // 位置精度
 		    	}
 		});	
-		console.log("经度："+longitude);
-		console.log("纬度："+latitude);
+		alert("经度："+longitude);
+		alert("纬度："+latitude);
 	};
 	function openLocation(){
 		wx.openLocation({
